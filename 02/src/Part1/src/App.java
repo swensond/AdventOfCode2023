@@ -12,10 +12,13 @@ public class App {
             }
         };
 
+        System.out.println(AccumulateGames("02/input", game));
+    }
+
+    public static Integer AccumulateGames(String inputFile, Game game) {
         Integer total = 0;
 
-        try (Scanner file = new Scanner(new File("02/input"))) {
-
+        try (Scanner file = new Scanner(new File(inputFile))) {
             while (file.hasNext()) {
                 String gameResult = file.nextLine();
                 Integer gameId = game.parseGameId(gameResult);
@@ -28,6 +31,6 @@ public class App {
         } catch (Exception e) {
         }
 
-        System.out.println(total);
+        return total;
     }
 }
