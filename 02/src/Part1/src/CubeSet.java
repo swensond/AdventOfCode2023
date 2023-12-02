@@ -3,9 +3,9 @@ package Part1.src;
 import java.lang.reflect.Field;
 
 public class CubeSet {
-    int red;
-    int green;
-    int blue;
+    public int red;
+    public int green;
+    public int blue;
 
     public CubeSet(int numberOfRedCubes, int numberOfGreenCubes, int numberOfBlueCubes) {
         red = numberOfRedCubes;
