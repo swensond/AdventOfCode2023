@@ -4,11 +4,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import Part1.src.App;
+import Part1.src.D2App;
 import Part1.src.CubeSet;
 import Part1.src.Game;
 
-public class TestApp {
+public class TestD2App {
 
     @Test
     public void Test() {
@@ -18,6 +18,6 @@ public class TestApp {
             }
         };
 
-        assertEquals((Integer) 8, App.AccumulateGames("02/src/Part1/test/input", game));
+        assertEquals((Integer) 8, D2App.AccumulateGames("02/src/Part1/test/input", game));
     }
 }
