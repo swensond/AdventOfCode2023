@@ -7,7 +7,6 @@ import java.util.Collections;
 import java.util.OptionalLong;
 import java.util.Scanner;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 
 import Part1.src.D5Map;
